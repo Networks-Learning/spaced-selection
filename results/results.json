@@ -1,0 +1,14 @@
+{
+  "step": "swift_to_hlr",
+  "start_time": "2019-07-16T19:56:17.664816",
+  "execution_time_seconds": 190.465368,
+  "parameters": {
+    "force": true,
+    "min_count": 1
+  },
+  "run_description": null,
+  "metrics": {
+    "size_filtered": 1308214,
+    "size_raw": 1308214
+  }
+}
