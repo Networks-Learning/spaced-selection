@@ -153,6 +153,8 @@ folder) and `USER_SESSIONS_CSV` are produced by the `swift_to_hlr.py` script abo
 The different version of the _Spaced-selection_ algorithm which can be
 simulated are:
 
- - `SPACED_SELECTION`: Items are selected for each session based on the population average size of sessions.
- - `DYN_SPACED_RANKING`: Items are selected randomly, but keep number of items correct per session.
- - `SPACED_RANKING`: Similar to `DYN_SPACED_RANKING`, but the items are selected deterministically sorted by the probability they have been forgotten by the student.
+ - `SPACED_RANKING` chooses the top-`k` items in terms of forgetting probability (that depends on the current half-life factor) for each session deterministically, where `k` can be tuned/modified per session (produced by the simulator or sampled from real data).
+
+ - `SPACED_SELECTION_DYN` chooses the `k` items probabilistically with each item's selection proportional to the probability of forgetting it (that depends on the current half-life factor) for each session, where `k` can be tuned/modified per session  (produced by the simulator or sampled from real data).
+
+- `SPACED_SELECTION` samples `k` items at random proportionally to the forgetting probability (that depends on the current half-life factor) for each session, where `k` is set by the population average size of sessions.
