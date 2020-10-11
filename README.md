@@ -8,7 +8,8 @@ This repository consists of scripts for analysis of Spaced selection and baselin
 
 The model was trained using data from the popular smart driving-learning app by [Swift](https://www.swift.ch/). The data on which the models were trained is not available. A preprint will be shortly made available.
 
-To prepare, download all the `csv` files to the `data/` folder. 
+To prepare, download all the `csv` files to the `data/` folder. An example file for 1 day of data has been added to the folder `data/spaced-algorithms`. An [IPython notebook](notebooks/Plots.ipynb) has been added to showcase the performance of the leraners for different algorithms.
+
 Unless otherwise stated, the code should be run from the root folder.
 
 ## Installing Dependencies
