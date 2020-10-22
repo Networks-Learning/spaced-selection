@@ -1,12 +1,16 @@
 # Spaced-Selection 
 
+This is a repository containing code and data for the paper: 
+
+> U. Upadhyay, A. De, A. Zarezade, Bernhard Schölkopf, and M. Gomez-Rodriguez. [_Large-scale randomized experiment reveals machine learning helps people learn and remember more effectively._](https://arxiv.org/abs/2010.04430)
+
 _Spaced Selection_ is a method for optimally selecting the items which the user should revise during a given session to optimize learning.
 
 The modeling of human memory is based on our previous work, [Memorize](https://github.com/Networks-Learning/memorize), but instead of choosing the optimal time to review each item, in this work, we allow the user to select the session time and we choose the set of items which she will study during the session.
 
 This repository consists of scripts for analysis of Spaced selection and baseline as well as code to run simulations to compare the performance of different item selection strategies.
 
-The model was trained using data from the popular smart driving-learning app by [Swift](https://www.swift.ch/). The data on which the models were trained is not available. A preprint will be shortly made available.
+The model was trained using data from the popular smart driving-learning app by [Swift](https://www.swift.ch/). The data on which the models were trained is not available.
 
 To prepare, download all the `csv` files to the `data/` folder. An example file for 1 day of data has been added to the folder `data/spaced-algorithms`. An [IPython notebook](notebooks/Plots.ipynb) has been added to showcase the performance of the leraners for different algorithms.
 
