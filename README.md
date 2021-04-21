@@ -10,9 +10,9 @@ The modeling of human memory is based on our previous work, [Memorize](https://g
 
 This repository consists of scripts for analysis of Spaced selection and baseline as well as code to run simulations to compare the performance of different item selection strategies.
 
-The model was trained using data from the popular smart driving-learning app by [Swift](https://www.swift.ch/). The data on which the models were trained is not available.
+The model was trained using data from the popular smart driving-learning app by [Swift](https://www.swift.ch/). The data generated during the randomized trial of the app with different learning algorithms is available for download [here](https://www.google.com/url?q=https://owncloud.mpi-sws.org/index.php/s/Pgn3Q9N592Z8MgZ&sa=D&source=hangouts&ust=1619105903052000&usg=AFQjCNEzKdG-8rL8eVnbQV7yl0ZXgVxetQ).
 
-To prepare, download all the `csv` files to the `data/` folder. An example file for 1 day of data has been added to the folder `data/spaced-algorithms`. An [IPython notebook](notebooks/Plots.ipynb) has been added to showcase the performance of the leraners for different algorithms.
+To prepare, download all the `csv` files to the `data/spaced-algorithms` folder. An example file for 1 day of data has been added to the folder already. An [IPython notebook](notebooks/Plots.ipynb) has been added to showcase the performance of the leraners for different algorithms.
 
 Unless otherwise stated, the code should be run from the root folder.
 
