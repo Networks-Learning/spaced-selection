@@ -2,7 +2,7 @@
 
 This is a repository containing code and data for the [paper](https://www.nature.com/articles/s41539-021-00105-8): 
 
-> U. Upadhyay, G. Lancashire, C. Moser and M. Gomez-Rodriguez. _Large-scale randomized experiment reveals machine learning helps people learn and remember more effectively._, arXiv:2010.04430, October 2020.
+> U. Upadhyay, G. Lancashire, C. Moser and M. Gomez-Rodriguez. _Large-scale randomized experiment reveals machine learning helps people learn and remember more effectively._, npj Science of Learning, 6, Article number: 26 (2021).
 
 _Spaced Selection_ is a method for optimally selecting the items which the user should revise during a given session to optimize learning.
 
