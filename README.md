@@ -1,6 +1,6 @@
 # Spaced-Selection 
 
-This is a repository containing code and data for the [paper](https://arxiv.org/abs/2010.04430): 
+This is a repository containing code and data for the [paper](https://www.nature.com/articles/s41539-021-00105-8): 
 
 > U. Upadhyay, G. Lancashire, C. Moser and M. Gomez-Rodriguez. _Large-scale randomized experiment reveals machine learning helps people learn and remember more effectively._, arXiv:2010.04430, October 2020.
 
